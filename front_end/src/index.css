@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  background: linear-gradient(270deg, #02AAB0 28.49%, #00CDAC 89.5%);
+}
+
+.navbar-nav {
+  margin-left: 50%;
+  font-size: medium;
+}
+.nav-item a{
+  color: white;
+}
+
+.nav-item1 {
+  margin-left: 70px;
+  font-size: large;
+}
+
+.main-slide {
+  padding-top: 10px;
+}
+
+.carousel .thumb {
+  width: 5%;
+  height: 50px;
+}
+
+.carousel {
+  text-align: center;
+}
+
+.events {
+  padding: 30px;
+}
+
+.cards {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.event-card {
+  margin: 30px;
+  cursor: pointer;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.event-card:hover {
+  transform: translateY(-7px);
+  transition: transform 0.8s ease 0s;
+}
+
+.event-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.browse-btn {
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #02afaf;
+  color: white;
+  border: none;
+}
+
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:530px;
+  width:100%;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:530px;
+  width:100%;
+}
+
+.api-quotes {
+  padding: 40px;
+}
+
+.api-content {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.about-api {
+  margin: 30px;
+  width: 750px;
+}
+
+.link-btn {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.more-events {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.event-decs {
+  margin: 25px;
+  display: flex;
+}
+
+.match-schedule {
+  padding: 25px;
+  padding-top: 30px;
+  margin-top: 30px;
+  background-color: #abede2;
+  padding-bottom: 80px;
+}
+
+.leader-board {
+  padding: 25px;
+  padding-top: 30px;
+  background-color: #A78FBE;
+  color: white;
+}

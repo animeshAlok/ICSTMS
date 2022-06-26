@@ -1,0 +1,30 @@
+#v-pills-tab{
+    border: 2px solid black;
+    position: fixed;
+    /* display: block; */
+    height: 100%;
+    width: 25%;
+    justify-content: space-between;
+}
+#fuck{
+    /* border: 2px solid black; */
+    justify-content: space-between;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#v-pills-tabContent{
+    /* border: 2px solid red; */
+    position: relative;
+    margin-left: 25%;
+    width: 100%;
+    height: 100%;
+}
+#logout{
+    width: 70%;
+    margin:0px auto;
+}
+#admin-btns button{
+    width: 70%;
+    margin:0px auto;
+}
